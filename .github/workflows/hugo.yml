@@ -3,10 +3,10 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches:
-      - main # Set a branch to deploy
+      - master # Set a branch to deploy
   pull_request:
     branches:
-      - main
+      - master
 
 permissions:
   contents: write
